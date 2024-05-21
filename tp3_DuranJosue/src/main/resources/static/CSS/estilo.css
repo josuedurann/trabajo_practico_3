@@ -1,0 +1,91 @@
+.link{}
+.titulos{
+	text-align: center;
+	color: purple;
+}
+section{
+	text-align: center;
+		
+}
+.tituloprincipal{
+	color:aqua; 
+}
+table{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display:flex;
+    color: white;
+    align-items: center;
+
+}
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    border-bottom: 4px solid white;
+    transition: 0.1s;
+}
+.Subtitulos{
+	color: rgb(0, 255, 128);
+}
+footer{
+    background-color: #111416;
+    opacity: 0.97;
+    color: white;
+    text-align: start;
+    padding: 2rem;
+    display: flex;
+    margin-top: 50px;
+    gap: 8rem;
+    
+}
+form{
+	justify-content: center;
+  	padding: 10px;
+  	width: 30%;
+    border-radius: 10px;
+   	border-color: azure;
+    font-size: 190%;
+    color: white;
+    
+}
+header{
+	color:rgb(255, 255, 255)
+}
+.cuerpo{
+	
+	background-image:url(../dance-move.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: azure;
+}
+ul{list-style: none;}
+
+body{
+	text-align: center;
+	}

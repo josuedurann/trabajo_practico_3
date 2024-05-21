@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="../static/CSS/estilo.css">
+	</head>
+	<center>
+		<div class="navbar">
+		        <div class="logo">
+		            <img src="../static/sts.png" alt="St"
+		            class="logo-img">
+		            <h2 class="logo nombre">Programacion Visual</h2>
+		        </div>
+		            <div class="menu">
+		                <ul class="ul">
+							<li><a class="link" href="index.html"> Inicio</a></li>
+							<li><a class="link" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=2#tabs-tree-start"> Semana dos de programacion visual</a></li>
+							<li><a class="link"href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=3#tabs-tree-start"> Semana tres de programacion visual</a></li>
+		                </ul>
+		            </div>
+		    </div>
+	<body>
+		<main class="cuerpo">
+		<header 			id="header">
+			<h1 class="tituloprincipal" >FORMULARIO</h1>
+		</header>
+		<form>
+			<label>
+				DNI: <input type="int" placeholder="" 
+							name="DNI" required/> <br />
+			</label>
+			<label>
+				Nombre: <input type="text" placeholder=""
+							name="Nombre" required /> <br />
+			</label>
+			<label>
+				Apellido: <input type="text" placeholder=""
+							name="Apellido"			required /> <br />
+			</label>
+			<label>
+				Fecha de nacimiento: <input type="date" placeholder=""
+							name="Fecha de nacimiento" 			required/> <br />
+			</label>
+			<label>
+				Sexo:<input type="radio" name="Sexo" value="Masculino" /> Masculino
+							<input type="radio" name="Sexo" value="Femenino" /> Femenino <br />
+			</label>
+			<label>
+				Domicilio: <input type="text" placeholder=""
+							name="Domicilio" 			required/> <br />
+			</label>
+			<label>
+			Provincia:
+			<select name="Provincia" required>
+						<option></option>
+						<option value="Jujuy">Jujuy</option>
+						<option value="Salta">Salta</option>
+						<option value="Chubut">Chubut</option>
+						<option value="Tucuman">Tucuman</option>
+			</select>
+			</label>
+			<label>
+			N° de Celular: <input type="int" placeholder=""
+			name="N° de celular" /> <br />
+			</label>
+			<label>
+			Cosas de interes:
+				<input type="checkbox" name="Interes" value="Cultura" /> Cultura
+				<input type="checkbox" name="Interes" value="Informatica" /> Informatica
+				<input type="checkbox" name="Interes" value="Historia" /> Historia
+				<input type="checkbox" name="Interes" value="Musica" /> Musica <br />
+			</label>
+			<label>
+			Sugerencias para la empresa:
+			<br>
+			<textarea id ="sugerencia" name="sugerencia" rows="4" cols="50" > </textarea>
+			</br>
+			</label>
+			<label>
+			E-mail: <input type="email" placeholder=""
+			name="E-mail" 			required/> <br />
+			</label>
+			<label>
+			Contraseña: <input type="password" placeholder=""
+			name="contra" required /> <br />
+			</label>
+			Aceptar terminos y condiciones:<br><input type="checkbox" name="terminos" value="" /> Acepto <br />
+			
+			Aceptar recibir infromacion relativa a la empresa:<br><input type="checkbox" name="informacion" value="" /> Acepto <br />
+			<input type="submit" value="Submit" />
+		</form>
+	</main>
+	</body>
+	</center>
+	<footer class="footer">
+			<p>Nacional de Jujuy - UNJu</p> 
+			<p>Subsecretaría de EaD - Coordinación UNJu Virtual</p>
+			<p>Avda. Bolivia N° 1685 B° Los Huaicos</p>
+			<p>San Salvador de Jujuy, Jujuy - Argentina/p>
+			<p>WhatsApp: 3884708223</p>
+			<p>Correo oficial: virtual@unju.edu.ar</p>
+			<p>Correo secundario: cursos@unju.edu.ar</p>
+	</footer>
+</html>
